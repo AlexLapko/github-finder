@@ -4,7 +4,6 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 import Home from './pages/Home'
-import Example from './pages/Example'
 import NotFound from './pages/404'
 
 export default new Router({
@@ -14,11 +13,6 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home
-    },
-    {
-      path: '/example',
-      name: 'example',
-      component: Example
     },
     {
       path: '*',
